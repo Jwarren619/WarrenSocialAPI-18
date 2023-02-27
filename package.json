@@ -1,0 +1,15 @@
+{
+    "name": "warrensocialapi-18",
+    "version": "1.0.0",
+    "description": "NoSQL Challenge : Social Network API",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "watch": "nodemon",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+  
