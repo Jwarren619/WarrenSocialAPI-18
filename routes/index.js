@@ -1,6 +1,7 @@
-const rootRouter = require("express").Router();
-const apiRouter = require("./api");
+const router = require("express").Router();
+const apiRoutes = require("./api");
 
-rootRouter.use("/api", apiRouter);
+router.use("/api", apiRoutes);
 
-module.exports = rootRouter;
+
+module.exports = router;
